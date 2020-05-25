@@ -1,0 +1,45 @@
+*,*::before,*::after{margin: 0;padding: 0;tap-highlight-color: transparent;-webkit-tap-highlight-color: transparent;}
+body{font-family: "微软雅黑";}
+
+.videop{width: 640px;margin: 0 auto;position: relative;}
+#ctn{position: fixed;left: 0;top: 0; width: 640px; height: 480px;margin: 0 auto;overflow: hidden;}
+#videoMainY{width: 640px;height: 480px; margin: 0 auto;overflow: hidden; z-index: 1008;}
+.MyVV{width: 640px;height: 70px;margin: 0 auto;overflow: hidden;background: #000000;display: none;z-index: 1008;}
+.videosbf{width: 640px;height: 480px; margin: 0 auto;overflow: hidden;position: relative;}
+#slideVideo{width: 100%;height: 100%; object-fit: cover;object-position: center center;}
+#mybutton{position: absolute;width: 80px;height: 80px; display:block; top:150px;left: 44%; z-index:1008;}
+#close{position: absolute;width: 60px;height: 60px; display:block;font-size: 24px; top:3px; right:20px;line-height: 70px; border-radius: 50%; 
+		z-index:1008;display: none;color: #fff;}
+		
+.videop #pic{vertical-align: bottom;width: 100%;}
+
+.videos{width: 640px;height: 480px;margin: 0 auto;}
+
+.wrapper {width: 640px;margin: 0 auto; height: 480px;position: relative;}
+.carousels{width: 640px;margin: 0 auto;}
+/*视频*/
+.swiper-slideVideo {width: 640px;margin: 0 auto; height: 480px;position: relative;}
+
+/*图片/视频切换*/
+.vAndi {width: 210px; height: 50px;position: absolute;left: 0;
+	right: 0;margin: auto;bottom: 70px;z-index: 9999;}
+.vAndiCont {width: 210px;height: 50px;display: flex;align-items: center;
+	justify-content: space-between;}
+.vAndiCont>div {width: 100px;height: 40px;border-radius: 30px;
+	line-height: 40px;background: #fff;color: #444444;font-size: 18px;text-align: center;}
+
+.videoBtn.SWactive:before {border-left: 8px solid #fff;
+	border-top: 8px solid transparent;border-bottom: 8px solid transparent;}
+.videoBtn.SWactive {background: #22ac38;color: #fff;}
+.imgBtn.SWactive {background: #22ac38;color: #fff;}
+.vrBtn.SWactive {background: #22ac38;color: #fff;}
+
+.videoPic{margin: 0 auto;width: 640px;height: 480px;}
+
+.videoBnt{position: fixed;left: 10px;bottom: 20%;display: none;}
+.videoBnt a{text-decoration: none;}
+
+
+.totality{width: 100px;height: 40px;background: rgba(50,50,50,0.6);position: absolute;
+			bottom: 73px;right: 20px; z-index: 1002;border-radius: 30px;}
+.totality p{font-size: 24px;color: #FFFFFF;text-align: center;line-height: 40px;}
